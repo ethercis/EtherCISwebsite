@@ -1,5 +1,5 @@
 url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+baseurl: /jekyll-theme2/  # /agency-jekyll-theme/
 
 include: ["_pages"]
 
