@@ -878,3 +878,19 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+
+/* RS Amends */
+	
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand {
+	padding: 0;
+}
+
+.navbar-brand img {
+	max-height: 68px;
+}
+
+	.navbar-shrink .navbar-brand img {
+		max-height: 58px;
+	}
