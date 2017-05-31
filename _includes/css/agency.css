@@ -989,10 +989,10 @@ body {
 			}
 			
 			#rs-navbar.navbar-default .navbar-nav > li.twitter a {
-				font-size: 16px;
+				font-size: 22px;
 				display: block;
-				width: 30px;
-				height: 30px;
+				width: 32px;
+				height: 32px;
 				margin-top: 30px;
 				padding-left: 0;
 				padding-right: 0;
@@ -1001,8 +1001,11 @@ body {
 				padding: 5px;
 			}
 			
-				#rs-navbar.navbar-default .navbar-nav > li.twitter a:hover {
-					background-color: #46d4fe;
+				#rs-navbar.navbar-default .navbar-nav > li.twitter a:hover,
+				#rs-navbar.navbar-default .navbar-nav > li.twitter a:focus,
+				#rs-navbar.navbar-default .navbar-nav > li.twitter a:active {
+					background-color: #7e1d8c;
+					color: #fff;
 				}
 				
 					#rs-navbar.navbar-default .navbar-nav > li.twitter a:hover i {
