@@ -898,7 +898,7 @@ body {
 /* SG Toolbar Additions */
 
 body {
-	padding-top: 46px;
+	
 }
 
 #rs-navbar .navbar-brand {
@@ -936,12 +936,17 @@ body {
 		#rs-navbar.navbar > .container {
 	/* 		padding: 0 60px; */
 		}
-	
+		
 		#rs-navbar.navbar-default {
-			background-color: #ffffff;
-			border-color: #e1e1e1;
 			padding: 0;
+			transition: background-color 0.5s;
 		}
+		
+			#rs-navbar.navbar-default.navbar-shrink {
+				background-color: #fff;
+				border-color: #e1e1e1;
+				
+			}
 		
 		#rs-navbar.navbar .navbar-nav > li {
 			height: 88px;
@@ -960,7 +965,6 @@ body {
 			vertical-align: middle;
 			font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 			font-size: 13px;
-			color: #454545;
 			font-weight: 600;
 			background: transparent;
 			padding-left: 11px;
@@ -968,7 +972,12 @@ body {
 			text-align: center;
 			text-transform: none;
 			letter-spacing: normal;
+			transition: color 0.5s;
 		}
+		
+			#rs-navbar.navbar-default.navbar-shrink .navbar-nav > li > a {
+				color: #454545;
+			}
 			
 			#rs-navbar.navbar .navbar-nav > li.active > a {
 			    color: #0c90cd;
@@ -1007,7 +1016,7 @@ body {
 		}
 		
 			
-				#rs-navbar .navbar-nav.main {
+				#rs-navbar.navbar-shrink .navbar-nav.main {
 					border-right: 1px solid #e6e6e6;
 				}
 			
