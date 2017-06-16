@@ -8,7 +8,7 @@ topnav:
     - title: About
       url: /#about
     - title: Documentation
-      external_url: https://tony-shannon.github.io/Docs4EtherCIS/
+      external_url: http://docs.ethercis.org/
     - title: Community
       url: /#contact
 
