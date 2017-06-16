@@ -1,5 +1,5 @@
 url: https://ethercis.org   #https://y7kim.github.io
-baseurl: https://ethercis.org/   #/  #/EtherCISwebsite/  # /jekylltheme2/  /agency-jekyll-theme/
+baseurl: https://ethercis.org   #/  #/EtherCISwebsite/  # /jekylltheme2/  /agency-jekyll-theme/
 
 include: ["_pages"]
 
