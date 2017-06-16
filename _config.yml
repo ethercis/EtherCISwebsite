@@ -1,4 +1,4 @@
-url: https://y7kim.github.io
+# url: https://y7kim.github.io
 baseurl: /  #/EtherCISwebsite/  # /jekylltheme2/  /agency-jekyll-theme/
 
 include: ["_pages"]
