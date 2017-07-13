@@ -1,5 +1,5 @@
 url: http://ethercis.org/   #https://y7kim.github.io
-baseurl: http://ethercis.org/  #/  #/EtherCISwebsite/  # /jekylltheme2/  /agency-jekyll-theme/
+baseurl:   #/  #/EtherCISwebsite/  # /jekylltheme2/  /agency-jekyll-theme/
 
 include: ["_pages"]
 
@@ -9,6 +9,9 @@ company: Ripple Foundation C.I.C. Ltd
 title2: EtherCIS
 email: ethercis@ripple.foundation
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+company_url: http://ripple.foundation
+# this appears in the footer
 
 
 # Team names, titles and social links
